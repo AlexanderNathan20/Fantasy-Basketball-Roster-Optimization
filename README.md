@@ -17,11 +17,11 @@ Steals: How many times your players take the ball away from an opponent.
 
 Blocks: The number of times your players stop an opponent's shot from going into the basket.
 
-Field Goal Percentage (FG%): The percentage of shots your players make from the field (how efficient they are at scoring).
+Field Goal Percentage: The percentage of shots your players make from the field (how efficient they are at scoring).
 
-Free Throw Percentage (FT%): The percentage of free throws your players make (how well they shoot free throws).
+Free Throw Percentage: The percentage of free throws your players make (how well they shoot free throws).
 
-Three-Pointers Made (3PM): The total number of successful three-point shots your players make.
+Three-Pointers Made: The total number of successful three-point shots your players make.
 
 Turnovers: The number of times your players lose possession of the ball to the other team (you want fewer of these).
 
