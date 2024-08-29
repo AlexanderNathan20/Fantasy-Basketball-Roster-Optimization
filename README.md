@@ -40,9 +40,9 @@ Season Goals
 Playoffs: The league usually lasts for the regular NBA season, with the best-performing teams making it to the playoffs at the end.
 
 ## Objectives
-##### Perform Data Analysis on Most Correlated Categories
+#### Perform Data Analysis on Most Correlated Categories
 
-##### Leverage Player Statistics to Forecast Future Performance
+#### Leverage Player Statistics to Forecast Future Performance
 
 #### Optimize Roster Based on the First Two Objectives
 
