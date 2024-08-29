@@ -1,3 +1,9 @@
 # Fantasy Basketball Roster Optimization
 
-test
+## Objectives
+
+## Project Steps
+
+## Challenges Faced
+
+## Results
