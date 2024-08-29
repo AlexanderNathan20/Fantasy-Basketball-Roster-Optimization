@@ -1,6 +1,9 @@
 # Fantasy Basketball Roster Optimization
 
 ## Background
+
+### Overview
+
 A Yahoo Fantasy 9-category 12-man league is a type of fantasy basketball league where you and 11 other people manage virtual teams of real NBA players. The league is called "9-category" because your team's success is measured by nine different statistical categories. Here's a breakdown to help you understand it better:
 
 ### League Setup
