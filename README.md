@@ -61,7 +61,25 @@ Optimization Model: Used Gurobi inspired model to formulate a 13-man roster with
 
 ## Project Steps
 
-## Challenges Faced
+### Overview
+The project consists of three main steps, each represented by a different script that specifically addresses each of the three objectives.
+
+### category_correlation_analysis
+read_csv(): This function reads, from four csv files, player stats from the past three seasons and a list of yahoo player names and their corresponding positions, and saves them as dataframes.
+
+dataframe_cleaning(): This functions drops duplicate rows, drops unused columns, and converts dataframe columns entries to its appropriate data types.
+
+combining_dataframes(): This functions renames columns, fixed player name discrepancies between dataframes, and merges the dataframe into a single dataframe.
+
+correlation_between_categories(): This function creates a correlation matrix based on the 2023-2024 NBA season between the nine categories, and creates all possible five category combinations along with a total correlation value. The idea behind this is that the higher the total correlation value, the more correlated those five categories are.
+<img width="652" alt="Screenshot 2024-09-01 at 19 46 57" src="https://github.com/user-attachments/assets/debd190b-8325-4a0b-aab0-9a6287fcab29">
+
+
+### future_performance_prediction
+
+
+### roster_optimization
+
 
 ## Results
 
