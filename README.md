@@ -71,7 +71,7 @@ dataframe_cleaning(): This functions drops duplicate rows, drops unused columns,
 
 combining_dataframes(): This functions renames columns, fixed player name discrepancies between dataframes, and merges the dataframe into a single dataframe.
 
-correlation_between_categories(): This function creates a correlation matrix based on the 2023-2024 NBA season between the nine categories, and creates all possible five category combinations along with a total correlation value. The idea behind this is that the higher the total correlation value, the more correlated those five categories are.
+correlation_between_categories(): This function creates a correlation matrix based on the 2023-2024 NBA season between the nine categories, and creates all possible five category combinations along with a total correlation value. The idea behind this is that the higher the total correlation value, the more correlated those five categories are. The five category combination with the highest total correlation value is Steals, Assist, Rebounds, Points, and Three-Points.
 
 <img width="652" alt="Screenshot 2024-09-01 at 19 46 57" src="https://github.com/user-attachments/assets/debd190b-8325-4a0b-aab0-9a6287fcab29">
 
