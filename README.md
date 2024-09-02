@@ -100,10 +100,22 @@ writing_to_csv(): This function writes four dataframes into csv files based on t
 Formula: (method_pts_weight * [PTS Z-Score] + method_ast_weight * [AST Z-Score] + method_trb_weight * [REB Z-Score] + method_3p_weight * [3P Z-Score] + method_stl_weight * [STL Z-Score]) * [Average Games Played]
 
 ### future_performance_prediction
+forecasting(): This function applies a time-series LSTM model on the top 200 players from the previous script dating back from the 2013-2014 season in order to forecast the five categories (combination of five most highly correlated categories) and games played for the upcoming season.
 
+Note: Steps determined is set to 3.
+Note: Players with three or less seasons played are projected with stats from their most recent season.
+Note: Forecasted games played was set to the average games played from the past three seasons per player as the model was projecting over 82 games at times.
 
 ### roster_optimization
+predicted_zscores():
 
+MLR(): This function performs multiple linear regression on the five categories (combination of five most highly correlated categories) with the five categories as the independent variables and the win attribute as the dependent variable, to determine weights on each of the five categories in relation to winning.
+
+pca_weights(): This function performs principal component analysis on the five categories (combination of five most highly correlated categories) based on the top 200 players (based on nine categories), to determine weights on each of the five categories in relation to the player statistics.
+
+writing_to_csv():
+
+optimal_roster():
 
 ## Results
 
