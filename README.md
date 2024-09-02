@@ -107,15 +107,17 @@ Note: Players with three or less seasons played are projected with stats from th
 Note: Forecasted games played was set to the average games played from the past three seasons per player as the model was projecting over 82 games at times.
 
 ### roster_optimization
-predicted_zscores():
+predicted_zscores(): This function converts the forecasted five categories into z-scores (normal distribution) based on the top 200 players and sums them up for a total forecasted player z-score. 
 
 MLR(): This function performs multiple linear regression on the five categories (combination of five most highly correlated categories) with the five categories as the independent variables and the win attribute as the dependent variable, to determine weights on each of the five categories in relation to winning.
 
-pca_weights(): This function performs principal component analysis on the five categories (combination of five most highly correlated categories) based on the top 200 players (based on nine categories), to determine weights on each of the five categories in relation to the player statistics.
+pca_weights(): This function performs principal component analysis on the five categories (combination of five most highly correlated categories) based on the forecasted top 200 players, to determine weights on each of the five categories in relation to the player statistics.
 
-writing_to_csv():
+writing_to_csv(): This function writes four dataframes into csv files to represent player rankings based on a formula involving z-scores. The four dataframes are based on the MLR() function analysis, the pca_weights() function analysis, the categorical_weights() round-per-round analysis, and the categorical_weights() general scarcity analysis.
 
-optimal_roster():
+Formula: (method_pts_weight * [Forecasted PTS Z-Score] + method_ast_weight * [Forecasted AST Z-Score] + method_trb_weight * [Forecasted REB Z-Score] + method_3p_weight * [Forecasted 3P Z-Score] + method_stl_weight * [Forecasted STL Z-Score]) * [Forecasted Average Games Played]
+
+optimal_roster(): This functions applies an optimization-based model on the top 200 players to come up with the most optimal roster of 13 players based on player round constraints(13 rounds, 12 players each round), and positional constraints. This is performed on the four dataframes within the previous function.
 
 ## Results
 
