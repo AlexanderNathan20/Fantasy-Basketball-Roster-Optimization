@@ -89,13 +89,15 @@ injury_analysis(): This function finds the average number of games played for ea
 
 top_200_correlated(): This function converts the five categories (combination of five most highly correlated categories) into z-scores (normal distribution) based on the top 200 players already selected and sums them up for a total player z-score. This is done to rank the players based on the five category combination within the 200 players that realistically get rostered.
 
-categorical_weights():
+categorical_weights(): This function analyses scarcity per category per round, analyses scarcity per category between rostered players an waiver wire players (first 156 and remaining 44), and analyses frequency distributions per category based on the 2023-2024 season. 
 
-MLR():
+MLR(): This function performs multiple linear regression on the five categories (combination of five most highly correlated categories) with the five categories as the independent variables and the win attribute as the dependent variable, to determine weights on each of the five categories in relation to winning.
 
-pca_weights():
+pca_weights(): This function performs principal component analysis on the five categories (combination of five most highly correlated categories) based on the top 200 players (based on nine categories), to determine weights on each of the five categories in relation to the player statistics.
 
-writing_to_csv():
+writing_to_csv(): This function writes four dataframes into csv files based on the previous three functions to represent player rankings based on a formula involving z-scores. The four dataframes are based on the MLR() function analysis, the pca_weights() function analysis, the categorical_weights() round-per-round analysis, and the categorical_weights() general scarcity analysis.
+
+Formula: (method_pts_weight * [PTS Z-Score] + method_ast_weight * [AST Z-Score] + method_trb_weight * [REB Z-Score] + method_3p_weight * [3P Z-Score] + method_stl_weight * [STL Z-Score]) * [Average Games Played]
 
 ### future_performance_prediction
 
