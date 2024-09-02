@@ -71,14 +71,31 @@ dataframe_cleaning(): This functions drops duplicate rows, drops unused columns,
 
 combining_dataframes(): This functions renames columns, fixed player name discrepancies between dataframes, and merges the dataframe into a single dataframe.
 
-correlation_between_categories(): This function creates a correlation matrix based on the 2023-2024 NBA season between the nine categories, and creates all possible five category combinations along with a total correlation value. The idea behind this is that the higher the total correlation value, the more correlated those five categories are. The five category combination with the highest total correlation value is Steals, Assist, Rebounds, Points, and Three-Points.
+correlation_between_categories(): This function creates a correlation matrix based on the 2023-2024 season between the nine categories, and creates all possible five category combinations along with a total correlation value. The idea behind this is that the higher the total correlation value, the more correlated those five categories are. The five category combination with the highest total correlation value is Steals, Assists, Rebounds, Points, and Three-Points.
 
 <img width="652" alt="Screenshot 2024-09-01 at 19 46 57" src="https://github.com/user-attachments/assets/debd190b-8325-4a0b-aab0-9a6287fcab29">
 
 Above is the correlation matrix that I analyzed. The values range from -1 to 1 with 1 representing the strongest correlation and -1 representing the weakest correlation. 
 
-Note: turnovers-to-category correlation values are subtracted from the total as the lower the turnovers, the better. 
+Note: Turnovers-to-category correlation values are subtracted from the total as the lower the turnovers, the better. 
 
+yahoo_league_analysis(): This function analyses the most common combination of exactly five categories that led to a win per week for every player in the Yahoo league. The idea behind this is to identify which combinaton of exactly five categories is most highly correlated with a win. The five category combination with the most wins is Steals, Assists, Rebounds, Points, and Three-Points.
+
+top_200_default(): This function converts the nine categories into z-scores (normal distribution) based on the 2023-2024 season and sums them up for a total player z-score. This mimics real-world basketball 9-category ranking websites where they use z-scores to rank players. Only the top 200 players are selected as usually only around 156 players realistically get rostered, with the remaining 44 players on the waiver wire.
+
+Note: A weight of 0.25 is placed on turnovers in order to minimize its negative impact.
+
+injury_analysis(): This function finds the average number of games played for each player over the past three seasons. Since injuries are a major part of the fantasy landscape as well, we account for injury history of players to determine what percentage of games they'll actually contribute in throughout the season. 
+
+top_200_correlated(): This function converts the five categories (combination of five most highly correlated categories) into z-scores (normal distribution) based on the top 200 players already selected and sums them up for a total player z-score. This is done to rank the players based on the five category combination within the 200 players that realistically get rostered.
+
+categorical_weights():
+
+MLR():
+
+pca_weights():
+
+writing_to_csv():
 
 ### future_performance_prediction
 
