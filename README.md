@@ -167,3 +167,11 @@ The 13 Player Roster derived from the Predicted_PCA.csv: Tyrese Maxey, Tyrese Ha
 
 ## Next Steps
 
+### Time-Series Model
+Changes on the time-series model itself could lead to improved predicted stats depending on number of factors, training and testing splits, etc.
+
+### Categorical Weights
+There may be newer and or more advanced mathemical analysis techniques besides PCA or MLR that could lead to more accurate categorical weights.
+
+### Z-Score Rescaling
+There may be more advanced mathemical resampling and or studies to improve or even substitute z-scores as the standard measurement of evaluating players.
