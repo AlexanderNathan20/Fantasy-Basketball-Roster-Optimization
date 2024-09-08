@@ -177,37 +177,37 @@ There may be newer and or more advanced mathemical analysis techniques besides P
 There may be more advanced mathemical resampling and or studies to improve or even substitute z-scores as the standard measurement of evaluating players.
 
 ## Sources
-https://github.com/Jayplect/nba-player-points-prediction
-https://github.com/alexmuhr/NBA_Player_Predictions
-https://courses.cs.washington.edu/courses/cse547/23wi/old_projects/23wi/NBA_Performance.pdf
-https://fhelper.azurewebsites.net/
-https://yfpy.uberfastman.com/
-https://hashtagbasketball.com/fantasy-basketball-rankings
-https://medium.com/nerd-for-tech/statistical-categories-scarcity-level-scarcity-impact-88ced85a3222
-https://sports.yahoo.com/nba-playoffs-nuggets-stun-timberwolves-with-jamal-murray-prayer-tie-series-reclaim-home-court-advantage-023021545.html
-https://www.espn.com/fantasy/basketball/fba/story?page=hardcorenba120126
-https://sports.yahoo.com/fantasy-basketball-complete-breakdown-and-guide-to-playing-in-category-leagues-005213840.html#:~:text=Categorical%20scarcity&text=All%20of%20the%20non%2Dpoint,rarely%20are%20high%2Dimpact%20passers.
-https://www.youtube.com/watch?v=6v9d_HvvBxo
-https://basketball.razzball.com/an-early-look-at-statistical-scarcity
-https://medium.com/@gioraomer/fantasy-nba-player-valuation-f66da694ab28#:~:text=Z%2DScores%20are%20the%20standard,the%20average%20of%20a%20dataset.
-https://docs.google.com/spreadsheets/d/1E4xFUo9-z0j9BHLXD5cIrnb0hHiDKtLIvFE8sgTIfgE/edit#gid=409417588
-https://www.reddit.com/r/fantasybball/comments/16shwc9/introducing_caruso_metric_a_gamechanger_in_nba/
-https://github.com/zer2/Fantasy-Basketball--in-progress-/blob/main/readme.md
-https://www.rotowire.com/basketball/article/nba-auction-strategy-part-2-21393
-https://www.reddit.com/r/fantasybball/comments/krqvmn/building_an_alternative_valuation_model_why/
-https://docs.google.com/spreadsheets/d/1tvktzLmeSQsvNMrBZdzyTVj1qZdVZiCxOShkwH2BBkY/edit#gid=1558515508
-https://georgeberry.substack.com/p/pseudo-z-scores-for-basketball-counting
-https://arxiv.org/pdf/2307.02188
-https://basketbawful.blogspot.com/2010/03/fantasy-basketball-stats-standard.html
-https://www.reddit.com/r/fantasybball/comments/57uo5z/simple_zscore_derived_rankings_oc/
-https://stats.stackexchange.com/questions/348192/combining-z-scores-by-weighted-average-sanity-check-please
-https://www.reddit.com/r/fantasybball/comments/1285d20/the_10_layers_of_9_cat_h2h_playoffs_manager/
-https://rpubs.com/HassanOUKHOUYA/NBA_Player_Performance_Analysis_PCA_Hierarchical_Clustering_and_K-Means_Clustering
-https://medium.com/@bball-fantasy-talks/drafting-in-h2h-fantasy-basketball-player-risk-player-values-timing-when-drafting-e2edfcc35272
-https://www.reddit.com/r/nbadiscussion/comments/lwwumu/how_do_you_measure_the_value_of_an_assist/
-https://fivethirtyeight.com/features/the-hidden-value-of-the-nba-steal/
-https://theconversation.com/data-reveals-the-value-of-an-assist-in-basketball-113893
-https://www.espn.com/fantasy/basketball/story/_/id/10522839/statistical-variance-fantasy-hoops-categories-fantasy-basketball
-https://www.stata.com/
-https://learning.oreilly.com/library/view/statistics-slam-dunk/9781633438682/OEBPS/Text/ch19.htm#sigil_toc_id_249
-https://apbr.org/metrics/viewtopic.php?t=9848
+1. https://github.com/Jayplect/nba-player-points-prediction
+2. https://github.com/alexmuhr/NBA_Player_Predictions
+3. https://courses.cs.washington.edu/courses/cse547/23wi/old_projects/23wi/NBA_Performance.pdf
+4. https://fhelper.azurewebsites.net/
+5. https://yfpy.uberfastman.com/
+6. https://hashtagbasketball.com/fantasy-basketball-rankings
+7. https://medium.com/nerd-for-tech/statistical-categories-scarcity-level-scarcity-impact-88ced85a3222
+8. https://sports.yahoo.com/nba-playoffs-nuggets-stun-timberwolves-with-jamal-murray-prayer-tie-series-reclaim-home-court-advantage-023021545.html
+9. https://www.espn.com/fantasy/basketball/fba/story?page=hardcorenba120126
+10. https://sports.yahoo.com/fantasy-basketball-complete-breakdown-and-guide-to-playing-in-category-leagues-005213840.html#:~:text=Categorical%20scarcity&text=All%20of%20the%20non%2Dpoint,rarely%20are%20high%2Dimpact%20passers.
+11. https://www.youtube.com/watch?v=6v9d_HvvBxo
+12. https://basketball.razzball.com/an-early-look-at-statistical-scarcity
+13. https://medium.com/@gioraomer/fantasy-nba-player-valuation-f66da694ab28#:~:text=Z%2DScores%20are%20the%20standard,the%20average%20of%20a%20dataset.
+14. https://docs.google.com/spreadsheets/d/1E4xFUo9-z0j9BHLXD5cIrnb0hHiDKtLIvFE8sgTIfgE/edit#gid=409417588
+15. https://www.reddit.com/r/fantasybball/comments/16shwc9/introducing_caruso_metric_a_gamechanger_in_nba/
+16. https://github.com/zer2/Fantasy-Basketball--in-progress-/blob/main/readme.md
+17. https://www.rotowire.com/basketball/article/nba-auction-strategy-part-2-21393
+18. https://www.reddit.com/r/fantasybball/comments/krqvmn/building_an_alternative_valuation_model_why/
+19. https://docs.google.com/spreadsheets/d/1tvktzLmeSQsvNMrBZdzyTVj1qZdVZiCxOShkwH2BBkY/edit#gid=1558515508
+20. https://georgeberry.substack.com/p/pseudo-z-scores-for-basketball-counting
+21. https://arxiv.org/pdf/2307.02188
+22. https://basketbawful.blogspot.com/2010/03/fantasy-basketball-stats-standard.html
+23. https://www.reddit.com/r/fantasybball/comments/57uo5z/simple_zscore_derived_rankings_oc/
+24. https://stats.stackexchange.com/questions/348192/combining-z-scores-by-weighted-average-sanity-check-please
+25. https://www.reddit.com/r/fantasybball/comments/1285d20/the_10_layers_of_9_cat_h2h_playoffs_manager/
+26. https://rpubs.com/HassanOUKHOUYA/NBA_Player_Performance_Analysis_PCA_Hierarchical_Clustering_and_K-Means_Clustering
+27. https://medium.com/@bball-fantasy-talks/drafting-in-h2h-fantasy-basketball-player-risk-player-values-timing-when-drafting-e2edfcc35272
+28. https://www.reddit.com/r/nbadiscussion/comments/lwwumu/how_do_you_measure_the_value_of_an_assist/
+29. https://fivethirtyeight.com/features/the-hidden-value-of-the-nba-steal/
+30. https://theconversation.com/data-reveals-the-value-of-an-assist-in-basketball-113893
+31. https://www.espn.com/fantasy/basketball/story/_/id/10522839/statistical-variance-fantasy-hoops-categories-fantasy-basketball
+32. https://www.stata.com/
+33. https://learning.oreilly.com/library/view/statistics-slam-dunk/9781633438682/OEBPS/Text/ch19.htm#sigil_toc_id_249
+34. https://apbr.org/metrics/viewtopic.php?t=9848
