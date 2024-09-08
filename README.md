@@ -121,4 +121,24 @@ optimal_roster(): This functions applies an optimization-based model on the top 
 
 ## Results
 
+### Most Correlated Categories Analysis
+The most correlated group of five categories based on the correlation matrix is Points, Rebounds, Assists, Three-Points, and Steals with a total correlation value of 5.887.
+The most correlated group of five categories that correlates to winning is Points, Rebounds, Assists, Three-Points, and Steals with a total win count of 28.
+
+These results tell us that the recommended categories to focus on when drafting are Points, Rebounds, Asists, Three-Points, and Steals as these five categories are the most correlated to each other (meaning a player scoring a high number of points, will most likely also be contributing a high number of assists), and contribute most to winning your week (whether due to categorical scarcity which will later be explored, or due to an external factor).
+
+### Categorical Scarcity Analysis
+There are four types of categorical scarcity analysis done on the dataset. First is the rostered against waiver wire analysis, and the round-per-round analysis. Second is the league frequency distribution analysis. Third is the multiple linear regression analysis. Fourth is the principal component analysis.
+
+The rostered against waiver wire analysis essentially compares the first 156 (13 rounds * 12 users) rostered player category averages against the last 44 waiver wire player category averages (totaling to 200 players). The round-per-round analysis compares the category averages per round of the draft (13 rounds). The results of these analysis are then combined to form the Yahoo categorical weights with Points having a weight of 1.38, Rebounds having a weight of 1.3, Assists having a weight of 1.41, Three-Points having a weight of 1.25, and Steals having a weight of 1.16.
+
+The league frequency distribution analysis depends on the use of frequency distribution graphs per category and percentile count analysis depending on the number of bins per category. An example of both is shown below.
+<img width="232" alt="Screenshot 2024-09-08 at 18 08 57" src="https://github.com/user-attachments/assets/77f863e6-170b-419e-b673-2edb4107b3a0">
+<img width="589" alt="Screenshot 2024-09-08 at 18 09 05" src="https://github.com/user-attachments/assets/6927dce4-fad4-4768-aa76-134cdbf70577">
+
+
+
+
+### 
+
 ## Next Steps
