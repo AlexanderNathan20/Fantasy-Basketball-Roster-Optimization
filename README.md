@@ -134,10 +134,36 @@ The rostered against waiver wire analysis essentially compares the first 156 (13
 
 The league frequency distribution analysis depends on the use of frequency distribution graphs per category and percentile count analysis depending on the number of bins per category. An example of the frequency distribution graph is shown below.
 <img width="589" alt="Screenshot 2024-09-08 at 18 09 05" src="https://github.com/user-attachments/assets/6927dce4-fad4-4768-aa76-134cdbf70577">
+The results of this analysis is then used to form the NBA categorical weights with Points having a weight of 1, Rebounds having a weight of 1.5, Assists having a weight of 1.5, Three-Points having a weight of 1.25, and Steals having a weight of 1.25.
 
+The multiple linear regression analysis models the five categories as independent variables and the win count as the dependent variable, estimating the best fit line on the graph for each category. The results of this analysis is then used to form the MLR categoriccal weights with Points having a weight of 0.00152018, Rebounds having a weight of 0.00257365, Assists having a weight of -0.00033497, Three-Points having a weight of 0.01215019, and Steals having a weight of 0.02304029.
 
+The principal component analysis treats the five categories as five different dimensions and reduces them to one dimension representing a multi-dimensional category. The results of this analysis is then used to form the MLR categoriccal weights with Points having a weight of 0.97129463, Rebounds having a weight of 0.06747427, Assists having a weight of 0.21458534, Three-Points having a weight of 0.07599245, and Steals having a weight of 0.01456861.
 
+### Forecasted Player Stats
+Refer to Forecasted_Player_Stats.csv
 
-### 
+### Top 200 Player Ranking Lists (2023-2024 Season and 2024-2025 Season) 
+Refer to Yahoo.csv
+Refer to NBA.csv
+Refer to MLR.csv
+Refer to PCA.csv
+(Based on actual 2023-2024 season stats from 2023_2024.csv)
+
+Refer to Predicted_Yahoo.csv
+Refer to Predicted_NBA.csv
+Refer to Predicted_MLR.csv
+Refer to Predicted_PCA.csv
+(Based on predicted 2024-2025 season stats from the Forecasted_Player_Stats.csv)
+
+### Optimized Rosters
+The 13 Player Roster derived from the Predicted_Yahoo.csv: Tyrese Maxey, Giannis Antetokounmpo, Nikola Vucevic, Scottie Barnes, Alperen Sengun, Ja Morant, Jordan Clarkson, Jimmy Butler, Jaden Ivey, Jusuf Nurkic, Cameron Johnson, Javonte Green, Cole Anthony.
+
+The 13 Player Roster derived from the Predicted_NBA.csv: Tyrese Maxey, Joel Embiid, Paolo Banchero, Kevin Durant, Jarrett Allen, Kawhi Leonard, Saddiq Bey, Caris Levert, Aaron Gordon, Mike Conley, Jerami Grant, Corey Kispert, Draymond Green.
+
+The 13 Player Roster derived from the Predicted_MLR.csv: Tyrese Maxey, Shai-Gilgeous Alexander, Buddy Hield, Terry Rozier, Kyle Kuzma, Kyrie Irving, Royce O'Neale, Kevin Huerter, Josh Hart, Jaden McDaniels, Andrew Wiggins, Keyonte George, Nic Claxton.
+
+The 13 Player Roster derived from the Predicted_PCA.csv: Tyrese Maxey, Tyrese Haliburton, Paolo Banchero, Franz Wagner, Jalen Williams, Spencer Dinwiddie, Kristaps Porzingis, Derrick White, Dennis Schroder, Keyonte George, Malik Beasley, Shaedon Sharpe, Herbert Jones.
 
 ## Next Steps
+
